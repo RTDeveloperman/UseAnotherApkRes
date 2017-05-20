@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_dialog_bg"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/reminder_dialog_header_tv"
+            style="@style/dialog_text_header"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/reminder_dialog_lv_show_groups"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clickable="false"
+        android:divider="@null"
+        android:fadingEdge="none"
+        android:focusable="false"
+        android:longClickable="false"
+        android:verticalScrollbarPosition="left" />
+
+    <LinearLayout
+        android:id="@+id/reminder_dialog_ll_add_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="right|center_vertical"
+        android:background="@drawable/selector"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/remainder_dialog_tv_add_group"
+            style="@style/dialog_textView"
+            android:text="@string/create_new_group" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:padding="4dp"
+            android:src="@drawable/ic_playlist_add_black_24dp" />
+
+    </LinearLayout>
+
+    <include layout="@layout/layout_button_ok_ca" />
+</LinearLayout>

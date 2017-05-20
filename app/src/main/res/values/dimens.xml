@@ -1,0 +1,48 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="public_tv_text_size">14sp</dimen>
+    <dimen name="shoText_popup_width">90dp</dimen>
+    <dimen name="MarginLeftRightDialog">80dp</dimen>
+    <dimen name="MarginTopBottomDialog">10dp</dimen>
+    <dimen name="shoText_popup_pos_width">110dp</dimen>
+
+
+    <dimen name="dialog_button_text_size">15sp</dimen>
+    <dimen name="dialog_title_text_size">20sp</dimen>
+    <dimen name="dialog_detail_text_size">17sp</dimen>
+    <dimen name="btn_corner_radius">1dp</dimen>
+    <dimen name="btn_min_width">64dp</dimen>
+    <dimen name="btn_min_height">36dp</dimen>
+    <dimen name="btn_margin">8dp</dimen>
+
+    <dimen name="main_acts_tv_text_size_zekr">13sp</dimen>
+
+
+    <!---start       dimen for fehrest page-->
+    <dimen name="fehrest_card_tv_primary_text">17sp</dimen>
+    <dimen name="fehrest_card_tv_detail_text">14sp</dimen>
+    <dimen name="fehrest_card_tv_number_singer">10sp</dimen>
+
+    <!---end        dimen for fehrest page-->
+
+
+    <!---start       dimen for fehrest Address Bar-->
+    <dimen name="fehrest_address_bar_tv_width">70dp</dimen>
+    <dimen name="fehrest_address_bar_tv_size">13sp</dimen>
+
+
+    <!---end       dimen for fehrest Address Bar-->
+
+
+    <!--dimen for help -->
+    <dimen name="showcase_radius">94dp</dimen>
+    <dimen name="showcase_radius_inner">96dp</dimen>
+    <dimen name="showcase_radius_outer">128dp</dimen>
+
+    <dimen name="showcase_radius_material">50dp</dimen>
+    <!--end dimen for help -->
+
+
+</resources>

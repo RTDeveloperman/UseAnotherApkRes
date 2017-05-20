@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/main_card_acts_iv_max_mize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/ic_main_maxi_mize"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/main_card_acts_ll_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="2dp">
+
+
+        <RelativeLayout
+            android:id="@+id/main_card_acts_rl_bg_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_bg_mourning_header">
+
+            <LinearLayout
+                android:id="@+id/main_card_amal_linear_top_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/main_card_acts_iv_min_miz"
+                    style="@style/main_card_acts_iv_icon"
+                    android:src="@drawable/main_card_acts_ic_mourning_min_mize" />
+
+                <ImageView
+                    android:id="@+id/main_card_acts_iv_share"
+                    style="@style/main_card_acts_iv_icon"
+                    android:src="@drawable/main_card_acts_ic_mourning_share"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/main_card_acts_iv_oghat"
+                    style="@style/main_card_acts_iv_icon"
+                    android:src="@drawable/main_card_acts_ic_mourning_prayer_times"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/main_card_acts_tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/main_card_amal_linear_top_icon"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@id/main_card_amal_linear_top_icon"
+                android:layout_toRightOf="@id/main_card_amal_linear_top_icon"
+                android:ellipsize="end"
+                android:gravity="right|center_vertical"
+                android:maxLines="1"
+                android:textSize="@dimen/public_tv_text_size" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/main_card_acts_ll_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_bg_mourning_card"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/main_card_acts_tv_show_event"
+                style="@style/main_card_acts_tv_show_act"
+                android:text="@string/showText_popup_more"
+                android:visibility="visible" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical">
+
+                <TextView
+                    android:id="@+id/main_card_acts_tv_zekr"
+                    style="@style/main_card_acts_tv_show_act"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/zekr"
+                    android:textSize="@dimen/main_acts_tv_text_size_zekr"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/main_card_acts_iv_zekr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/main_zek_mourningr_sat"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/main_card_acts_tv_show_alert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:gravity="center_horizontal|center_vertical"
+                android:padding="4dp"
+                android:text="@string/alert_text"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp">
+
+                <Button
+                    android:id="@+id/main_crad_amal_btn_more"
+                    style="@style/FlatButton"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/more" />
+
+                <LinearLayout
+                    android:id="@+id/main_card_acts_ll_show_act"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/main_crad_amal_btn_more"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@id/main_crad_amal_btn_more"
+                    android:gravity="right"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/main_crad_amal_tv_first_act"
+                        style="@style/main_card_acts_tv_show_act" />
+
+                    <TextView
+                        android:id="@+id/main_crad_amal_tv_second_act"
+                        style="@style/main_card_acts_tv_show_act" />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

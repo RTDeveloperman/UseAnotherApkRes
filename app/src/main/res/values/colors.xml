@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="publicDivider">#a78f8f8f</color>
+    <color name="publicText">#4b4848</color>
+    <color name="popup_tv_more">#FF4081</color>
+    <color name="colorDialogText">#65c25a</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+
+
+
+    <color name="main_card_acts_tv_public_zekr">#5e995c</color>
+    <color name="main_card_acts_tv_feasts_zekr">#0083f5</color>
+    <color name="main_card_acts_tv_mourning_zekr">#c55d50</color>
+
+    <!---start        color for fehrest page-->
+    <color name="color_fehrest_card_text_detail">#717171</color>
+    <color name="color_fehrest_separator">#d1d1d1</color>
+
+    <!---end       color for fehrest page-->
+    <!--start                show text -->
+
+    <color name="color1">#ff00ddff</color>
+    <color name="color2">#ff669900</color>
+    <color name="color3">#ffff8800</color>
+    <color name="color4">#ffaa66cc</color>
+
+    <!---end       show text-->
+
+</resources>

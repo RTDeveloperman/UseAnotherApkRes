@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/cardview_shadow_start_color">
+
+    <RelativeLayout
+        android:id="@+id/quran_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/info_panel">
+
+        <View
+            android:id="@+id/viewBlack"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/title_dialog_bg"
+            android:visibility="gone"/>
+
+        <RelativeLayout
+            android:id="@+id/rlPage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/ivTileDown">
+
+                <ImageView
+                    android:id="@+id/ivTileRight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"/>
+
+                <ImageView
+                    android:id="@+id/ivTileLeft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_gravity="left"
+                   />
+
+                <ScrollView
+                    android:id="@+id/main"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@+id/ivTileRight"
+                    android:layout_toRightOf="@+id/ivTileLeft"
+                    android:overScrollMode="never"
+
+                >
+                </ScrollView>
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/ivTileDown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="right"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+ <!--   <include
+        android:id="@+id/info_panel"
+        layout="@layout/header2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>-->
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/header_doa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <include
+        android:id="@+id/play_panel"
+        layout="@layout/player_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="visible"/>
+
+  <!--  <ImageView
+        android:id="@+id/action_undo_fullscreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="8dp"
+        android:src="@drawable/ic_fullscreen"
+        android:visibility="gone"/>-->
+
+    <ImageView
+        android:id="@+id/ivLastReviewOpen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:src="@drawable/ic_playlist_add_black_24dp"
+        android:visibility="gone"/>
+
+</RelativeLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/tab_layout_main_linear"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:paddingBottom="4dp"
+        android:paddingLeft="4dp"
+        android:paddingTop="4dp">
+
+        <ImageView
+            android:id="@+id/action_search"
+            style="@style/hint_iv_icon"
+            android:layout_alignParentLeft="true"
+    />
+
+        <ImageView
+            android:id="@+id/action_remind"
+            style="@style/hint_iv_icon"
+            android:layout_toRightOf="@+id/action_search"
+           />
+
+        <ImageView
+            android:id="@+id/action_drawer_menu"
+            style="@style/hint_iv_icon"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="2dp"
+       />
+
+        <LinearLayout
+            android:id="@+id/action_bar_title_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/action_drawer_menu"
+
+            android:descendantFocusability="blocksDescendants"
+            android:gravity="center_vertical"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp">
+
+            <ImageView
+                android:id="@+id/action_bar_left_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/action_bar_title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:id="@+id/action_bar_right_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+
+    <RelativeLayout
+        android:id="@+id/tab_layout_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<!--
+
+        <com.example.win81.helpfehrestsureh.SlidingTabLayout
+            android:id="@+id/tab_layout_sliding_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/tab_layout_view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/tab_layout_sliding_tabs"/>
+-->
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tab_layout_relative_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <FrameLayout
+            android:id="@+id/tab_layout_frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+</LinearLayout>

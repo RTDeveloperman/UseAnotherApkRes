@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left|center_vertical"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/confirm_btn"
+        style="@style/FlatButton"
+        android:layout_alignParentLeft="true"
+        android:text="تایید" />
+
+    <Button
+        android:id="@+id/cancel_btn"
+        style="@style/FlatButton"
+        android:layout_toRightOf="@id/confirm_btn"
+        android:text="انصراف" />
+
+    <Button
+        android:id="@+id/neutral_btn"
+        style="@style/FlatButton"
+        android:layout_marginRight="@dimen/btn_margin"
+        android:paddingRight="@dimen/btn_margin"
+        android:paddingLeft="@dimen/btn_margin"
+        android:layout_alignParentRight="true"
+        android:text="اطلاعات بیشتر"
+        android:visibility="gone"
+         />
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Bab - ShowText</string>
+    <string name="night_status">حالت شب</string>
+    <string name="translatedSubtitles">ترجمه زیر نویس</string>
+    <string name="showText_popup_more">تنظیمات پیشرفته</string>
+    <string name="uri_show_oghat">badesaba://showPrayTime?</string>
+    <string name="more">بیشتر</string>
+    <string name="title">تیتر برای دیالوگ</string>
+    <string name="groupName">نام گروه</string>
+    <string name="invalidData">نام گروه خالی است</string>
+    <string name="create_reminder">ایجاد یادآوری</string>
+    <string name="create_new_group">ایجاد گروه</string>
+    <string name="download_badesaba">دانلود بادصبا</string>
+    <string name="alert_text">در این کادر اعمال روزانه و وقایع مهم نمایش داده می شود، برای نمایش نیاز به نرم افزار بادصبا است.</string>
+    <string name="alert">توجه</string>
+    <string name="zekr">ذکر روز:</string>
+
+    <array name="all_day_week">
+        <item>شنبه</item>
+        <item>یک شنبه</item>
+        <item>دوشنبه</item>
+        <item>سه شنبه</item>
+        <item>چهارشنبه</item>
+        <item>پنج شنبه</item>
+        <item>جمعه</item>
+    </array>
+
+    <array name="all_month">
+        <item>محرم</item>
+        <item>صفر</item>
+        <item>ربیع‌الاول</item>
+        <item>ربیع‌الثانی</item>
+        <item>جمادی‌الاول</item>
+        <item>جمادی‌الثانی</item>
+        <item>رجب</item>
+        <item>شعبان</item>
+        <item>رمضان</item>
+        <item>شوال</item>
+        <item>ذیقعده</item>
+        <item>ذیحجه</item>
+    </array>
+
+    <!--start *************************** show text && fehrest -->
+
+    <string name="close">بستن</string>
+    <string name="next">بعدی</string>
+
+    <array name="show_text_content_title">
+        <item>تنظیمات نمایش متن</item>
+        <item>بزرگنمایی</item>
+        <item>حرکت خودکار</item>
+        <item>ایجاد آخرین مشاهده</item>
+        <item>کنترل صوت</item>
+        <item>تکرار پخش</item>
+        <item>تنظیمات پخش</item>
+        <item>انتخاب مداح</item>
+        <item>قابلیت صفحه نمایش</item>
+        <item>در آخر...</item>
+    </array>
+    <array name="show_text_content_text">
+        <item>از این قسمت به تنظیمات سریعی مثل ”\ نمایش ترجمه ”\ و ”\ حالت شب ”\  دسترسی دارید.</item>
+        <item>انتخاب این آیکن، سبب بزرگنمایی صفحه میشود.</item>
+        <item>با ضربه روی این آیکن، حرکت خودکار، فعال/غیرفعال خواهد شد.</item>
+        <item>با ضربه روی این آیکن، می‌توانید محل مطالعه خودتان را ثبت نمایید.</item>
+        <item>از این قسمت به راحتی صوت در حال اجرا را مدیریت کنید.</item>
+        <item>تکرار پخش صوت را می‌توانید از این قسمت فعال/غیرفعال کنید.</item>
+        <item>در این بخش تمامی تنظیمات مربوط به پخش صوت قرار گرفته است.</item>
+        <item>با ضربه روی این آیکن، امکان مشاهده مداحان و انتخاب آنها را دارید.</item>
+        <item>با ضربه روی صفحه متن، نوار ابزار بالا و پایین پنهان می شوند.</item>
+        <item>و با ضربه دوباره بر روی صفحه متن، نوارها ظاهر می شوند.</item>
+    </array>
+
+    <array name="fehrest_content_title">
+    <item>منو</item>
+    <item>دسترسی سریع به فهرست شخصی </item>
+    <item>بخش یادآوری </item>
+    <item>جستجو </item>
+    <item>تب ها</item>
+</array>
+    <array name="fehrest_content_text">
+        <item>با ضربه زدن به آیکن منو به بخش های دیگر نرم افزار دسترسی خواهید داشت.</item>
+        <item>با ضربه به این آیتم می تونید به بخش فهرست شخصی هدایت شوید.</item>
+        <item>با ضربه به این آیکن به بخش یادآوری هدایت می شوید.</item>
+        <item>می تونید در تمام نرم افزار جستجو کنید.</item>
+        <item>فهرست های مختلف نرم افزار از این قسمت قابل انتخاب است.</item>
+    </array>
+    <!---end****************************************show text && fehrest -->
+</resources>

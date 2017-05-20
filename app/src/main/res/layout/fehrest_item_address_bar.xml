@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layoutDirection="rtl"
+    android:orientation="horizontal"
+    android:layout_gravity="right"
+    android:gravity="right"
+    android:background="@color/colorWhite">
+
+    <TextView
+        android:id="@+id/fehrest__address_bar_item_tv_show_text"
+        android:layout_width="@dimen/fehrest_address_bar_tv_width"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector"
+        android:layout_gravity="right|center"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="sdvds"
+        android:clickable="true"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textSize="@dimen/fehrest_address_bar_tv_size"
+        />
+
+    <ImageView
+        android:layout_gravity="right|center_vertical"
+        android:id="@+id/fehrest__address_bar_item_iv_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_fehrest_address_bar_left_arrow" />
+
+</LinearLayout>

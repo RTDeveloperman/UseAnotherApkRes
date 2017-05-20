@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_dialog_bg"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/reminder_dialog_header_tv"
+            style="@style/dialog_text_header" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/reminder_add_group_tv_group_name"
+        style="@style/dialog_textView"
+        android:text="@string/groupName" />
+
+    <EditText
+        android:id="@+id/reminder_add_group_et_group_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+    <include layout="@layout/layout_button_ok_ca" />
+</LinearLayout>

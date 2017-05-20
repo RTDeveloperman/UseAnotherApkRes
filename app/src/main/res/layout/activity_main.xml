@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.win81.bab_showtext.MainActivity">
+
+    <include layout="@layout/main_card_acts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/btn$showPopUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:src="@drawable/ic_share"
+        android:text="showQuickSetting" />
+
+    <Button
+        android:id="@+id/btn$showdialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="showDialog" />
+
+    <include
+        layout="@layout/layout_button_ok_ca"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    <include
+        android:id="@+id/includeFirst"
+        layout="@layout/fehrest_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn$showdialog" />
+
+    <ImageView
+        android:id="@+id/btn_showHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="53dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginRight="78dp"
+        android:layout_toLeftOf="@+id/btn$showdialog"
+        android:layout_toStartOf="@+id/btn$showdialog"
+        android:clickable="true"
+        android:src="@drawable/ic_favorite_deactive"
+        android:text="showHint" />
+
+</LinearLayout>
